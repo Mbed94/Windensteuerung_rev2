@@ -57,7 +57,7 @@ void Spurservo_fahren(void) {
 
     static int i = 20;
 
-    if (millis() > (3000 / power) + myTimer2 ) {
+    if (millis() > (FUEHRGESCHW / power) + myTimer2 ) {
       myTimer2 = millis();
 
       Spur.write(i);
@@ -81,7 +81,7 @@ void Spurservo_fahren(void) {
 
     static int s = 160;
 
-    if (millis() > (3000 / power) + myTimer2 ) {
+    if (millis() > (FUEHRGESCHW / power) + myTimer2 ) {
       myTimer2 = millis();
 
       Spur.write(s);

@@ -6,6 +6,7 @@
 
 #define verzh 4
 #define verzr 4
+#define FUEHRGESCHW 1000 // Je kleiner, desto schneller bewegt sich der Führ-Arm der Trommel
 Servo Regler;
 Servo Spur;
 
